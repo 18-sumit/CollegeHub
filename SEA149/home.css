@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to right , #00093c , #2d0b00); /* Added linear gradient background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    border-bottom: 1px solid yellow;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    height: 40px; /* Adjust height */
+    cursor: pointer;
+}
+
+.search-box input {
+    padding: 8px 30px 8px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 560px;
+}
+
+.search-box button {
+    /* position: absolute; */
+    right: 10px;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icons {
+    color: red;
+    font-size: 20px;
+}
+/* side panel */
+
+.sidepanel{
+    position: fixed;
+    height:90vh;
+    width: 17vw;
+    background-color: #030d43;
+    border-right: 1px solid gold;
+}
+.sidepanel:hover{
+    cursor: pointer;
+}
+li{
+    color: white;
+    list-style: none;
+    padding: 16px 0 10px 15px;
+}
+i{
+    color: white;
+    padding: 17px 0 10px 15px;
+}
+.home{
+    display: flex;
+    height: 40px;
+    margin: 7px;
+    border-radius: 10px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: rgb(23, 112, 167);
+}
+hr{
+    margin: 6px 20px;
+    color: antiquewhite;
+    opacity: 0.5;
+}
